@@ -2,5 +2,10 @@
 
 void _putchar(const char *message)
 {
-	printf("%s\n", message);
+	while (*message)
+	{
+	putchar(*message);
+	message++;
+	}
+putchar('\n');
 }
