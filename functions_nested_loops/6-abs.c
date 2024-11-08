@@ -1,8 +1,8 @@
 #include "main.h"
  /**
-  * _abs - computes the absoulute value of an int
-  * @c: the num to be computed
-  * Return: absolute value of number or 0
+  * _abs - computes the absoulute value of an integer.
+  * @c: the number to be computed.
+  * Return: absolute value of number or zero.
   */
 int _abs(int c)
 {
