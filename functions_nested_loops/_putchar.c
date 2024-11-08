@@ -1,11 +1,11 @@
-#include "main.h"
-
-void _putchar(const char *message)
+#include "unistd.h"
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropiately.
+**/
+int _putchar(char c)
 {
-	while (*message)
-	{
-	putchar(*message);
-	message++;
-	}
-putchar('\n');
+	return (write(1, &c, 1));
 }

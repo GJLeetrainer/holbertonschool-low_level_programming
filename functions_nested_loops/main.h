@@ -1,8 +1,3 @@
-#ifndef MYHEADER_H
-#define MYHEADER_H
+int _putchar(char c);
 
-#include <stdio.h>
-
-int _putchar(char h);
-
-#endif
+void print_alphabet(void);
