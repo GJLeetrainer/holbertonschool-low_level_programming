@@ -6,7 +6,7 @@
  *
  * Description: This function takes a variable number of string arguments
  * and prints them separated by the `separator`. If a string is `NULL`,
- * it prints`(nil)`. 
+ * it prints`(nil)`.
  * A new line is added at the end.
  */
 void print_strings(const char *separator, const unsigned int n, ...)
